@@ -1,0 +1,6 @@
+import os
+
+path = "/root/.cache/kagglehub/datasets/naurosromim/bengali-hate-speech-dataset/versions/1"
+
+print("Files in dataset:")
+print(os.listdir(path))
